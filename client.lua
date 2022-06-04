@@ -1,4 +1,4 @@
-CreateThread(function()
+CreateThread(function()-- probably just add this to an existing script
     while true do
         Wait(500)-- can set to 0 if needed 
         local gamepad = GetLastInputMethod(2)
